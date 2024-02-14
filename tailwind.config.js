@@ -21,6 +21,11 @@ module.exports = {
         themeRoot: ":root", // The element that receives theme color CSS variables
     },
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                righteous: ["Righteous", "sans-serif"],
+                poppins: ["Poppins", "sans-serif"]
+            },
+        },
     },
 }
